@@ -1,0 +1,23 @@
+{
+  "name": "Inspire-Robotics",
+  "version": "1.0.0",
+  "description": "An app.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameerkapur/Inspire-Robotics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerkapur/Inspire-Robotics/issues"
+  },
+  "homepage": "https://github.com/sameerkapur/Inspire-Robotics"
+}
