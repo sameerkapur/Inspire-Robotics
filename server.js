@@ -4,6 +4,12 @@ var app = express();
 
 
 app.set('port', (process.env.PORT || 5000));
+
+app.post('/subUser', function(req, res){
+	console.log("REQ: " + req);
+	console.log("res: " + res);
+});
+
 app.use(express.static(__dirname + '/app'));
 
 
