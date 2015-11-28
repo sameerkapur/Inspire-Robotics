@@ -6,6 +6,7 @@ var app = express();
 app.set('port', (process.env.PORT || 5000));
 
 app.post('/', function(req, res){
+	console.log("post----------");
 	console.log("REQ: " + req);
 	console.log("res: " + res);
 });

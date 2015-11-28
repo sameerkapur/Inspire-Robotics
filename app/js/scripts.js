@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("#submitButton").click(function(){
-		// alert("click");
+		alert("click");
 		$.ajax({
 			type: "POST",
 			url: "/",
