@@ -277,8 +277,7 @@ input.text:focus {
 @media ( min-width: 768px ) {
 	.submit {
 	font-size: 0.727rem;
-height: 5.1em;
-width: 5em;
+
 	}
 
 }
