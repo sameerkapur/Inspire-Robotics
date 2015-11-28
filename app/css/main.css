@@ -276,7 +276,9 @@ input.text:focus {
 
 @media ( min-width: 768px ) {
 	.submit {
-		font-size: 0.727rem;
+	font-size: 0.727rem;
+height: 5.1em;
+width: 5em;
 	}
 
 }
@@ -599,6 +601,7 @@ input.text:focus {
 	top: 0;
 	right: 1px;
 	bottom: -1px;
+
 }
 
 @media ( min-width: 768px ) {
@@ -751,10 +754,12 @@ input.text:focus {
 }
 
 .header {
-	position: relative;
+	position: fixed;
 	padding: 20px 0;
-	box-shadow: 0 0 113px rgba(0,0,0,.04);
-	z-index: 10;
+	box-shadow: 0 0 113px rgba(0,0,0,0);
+	z-index: 
+	0;
+	background-color: transparent;
 }
 
 @media ( min-width: 768px ) {
@@ -1188,7 +1193,7 @@ input.text:focus {
 	z-index: 0;
 }
 
-@media ( min-width: 1200px ) {
+@media ( min-width: 600px ) {
 	
 	.fullscreen-video  {
 		display: block;
