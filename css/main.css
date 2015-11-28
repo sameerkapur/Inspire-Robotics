@@ -754,10 +754,12 @@ width: 5em;
 }
 
 .header {
-	position: relative;
+	position: fixed;
 	padding: 20px 0;
-	box-shadow: 0 0 113px rgba(0,0,0,.04);
-	z-index: 10;
+	box-shadow: 0 0 113px rgba(0,0,0,0);
+	z-index: 
+	0;
+	background-color: transparent;
 }
 
 @media ( min-width: 768px ) {
