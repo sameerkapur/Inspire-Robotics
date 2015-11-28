@@ -279,7 +279,6 @@ input.text:focus {
 @media ( min-width: 768px ) {
 	.submit {
 	font-size: 0.727rem;
-
 	}
 
 }
@@ -1052,6 +1051,10 @@ input.text:focus {
 	left: 15px;
 }
 
+.brand-color {
+font-weight: 700;
+
+}
 
 @media ( min-width: 1200px ) {
 	.hero-home {
