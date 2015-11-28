@@ -163,6 +163,7 @@ h4,
 	h4,
 	.h4	{
 		font-size: 16px;
+
 	}
 }
 
@@ -274,6 +275,7 @@ input.text:focus {
 	font-size: 12px;
 	height:100%;
 	text-align:center;
+	cursor:pointer;
 }
 
 @media ( min-width: 768px ) {
@@ -1216,6 +1218,11 @@ font-weight: 700;
 
 .modal-video {
 	background: #000;
+}
+
+.modal-body, .modal-title {
+
+	text-align: left;
 }
 
 @media ( max-width: 767px ) {
