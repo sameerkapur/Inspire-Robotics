@@ -1,6 +1,14 @@
+
+
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
 
+var request = require('request');
+
+var listID = process.env.MAILCHIMP_LIST_ID;
+var apiKey = process.env.MAILCHIMP_API_KEY;
 
 
 app.set('port', (process.env.PORT || 5000));
@@ -8,8 +16,23 @@ app.set('port', (process.env.PORT || 5000));
 app.post('/', function(req, res){
 	console.log("post----------");
 	console.log("REQ: " + req);
-	console.log("res: " + res);
+
+	console.dir("REQ: " + req);
+	console.log("REQ: " + req.body.email);
+
+	res.end();
+
+
+
 });
+
+
+/*
+
+https://us12.api.mailchimp.com/3.0/
+
+
+*/
 
 app.use(express.static(__dirname + '/app'));
 
