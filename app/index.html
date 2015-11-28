@@ -71,7 +71,22 @@
 				<p class="mb-35">Enter your email here and we'll send you sneak peaks at our product before we launch!
 
 					<br><br>
+				<div class="btn-append dropdown-prepend">
 
+					<div class=dropdown>
+						<button class="btn btn-default dropdown-toggle" type="button" id="f1" data-toggle="dropdown" aria-expanded="true">
+						<span id=option-value-f1>US (+1)</span>
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" data-displaytarget="#option-value-f1" data-inputtarget=".f1-target" role="menu" aria-labelledby="f1">
+							<li role="presentation" data-placeholder="US ( +1)" data-value="1" class=disabled>US ( +1)</li>
+						</ul>
+					</div>
+
+					<!-- actual select here -->
+					<select name="country-code" class="sr-only f1-target countryCode">
+						<option selected value="1">US (+1)</option>
+					</select>
 
 					<input type=tel class="text phoneNumber" name="tel" placeholder="Email Address" required>
 
