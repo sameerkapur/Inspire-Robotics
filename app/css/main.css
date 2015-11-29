@@ -15,6 +15,8 @@
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
+
+
 *,
 *:before,
 *:after  {
@@ -797,6 +799,7 @@ input.text:focus {
 	top: 50%;
 	margin-top: -.9em;
 	right: 15px;
+
 }
 
 @media ( min-width: 768px ) {
