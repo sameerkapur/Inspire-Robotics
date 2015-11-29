@@ -3,6 +3,18 @@
 @import url("grid.css");
 @import url("modal.css");
 
+
+
+.carousel-content {
+  position: absolute;
+  bottom: 91%;
+  	font-size: 35px;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
 *,
 *:before,
 *:after  {
@@ -763,8 +775,7 @@ input.text:focus {
 	position: fixed;
 	padding: 20px 0;
 	box-shadow: 0 0 113px rgba(0,0,0,0);
-	z-index: 
-	0;
+	z-index: 1;
 	background-color: transparent;
 }
 
