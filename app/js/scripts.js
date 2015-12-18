@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$("#submitButton").click(function(){
-		// alert("click");
 		if($("#email").val() !== "")
 		{
 			$.ajax({
@@ -9,11 +8,17 @@ $(document).ready(function(){
 				url: "/",
 				data: JSON.stringify({email:$("#email").val()}), 
 				success: function () {
+					$(".contact").css("display", "none");
+					$("#signedUp").css("display", "");
 					//change html
+				},
+				error: function(jqXHR, textStatus, errorThrown) {
+					// console.log(textStatus, errorThrown);
 				}
+
 			});
 		}
 		else
-			alert("Enter an email.")
+			alert("Enter an email.");
 	});
 });
