@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$("#submitButton").click(function(){
+	$("#submitButton").click(function(e){
+		e.preventDefault();
 		if($("#email").val() !== "")
 		{
 			$.ajax({
