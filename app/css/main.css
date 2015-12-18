@@ -795,7 +795,7 @@ input.text:focus {
 	font-weight: 700;
 	line-height: 1;	
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #76777A;
 	position: absolute;
 	top: 50%;
 	margin-top: -.9em;
@@ -1057,9 +1057,10 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-	background-image: url("../img/bg-default.jpg");
+	background-image: url("../img/hero.jpg");
 	background-color: 523129#;
-	min-height: 400px;
+	min-height: 200px;
+	background-size: 50px 20px;
 }
 
 .hero-home h1 {
